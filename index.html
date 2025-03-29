@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassPoint</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .team-member {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 280px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #ddd;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: #888;
+        }
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .role {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PassPoint</h1>
+    </header>
+    
+    <div class="team-container">
+        <div class="team-member">
+            <div class="avatar">
+                <img src="/api/placeholder/120/120" alt="Sarah Johnson">
+            </div>
+            <div class="name">Sarah Johnson</div>
+            <div class="role">Project Lead</div>
+        </div>
+        
+        <div class="team-member">
+            <div class="avatar">
+                <img src="/api/placeholder/120/120" alt="Michael Chen">
+            </div>
+            <div class="name">Michael Chen</div>
+            <div class="role">Lead Developer</div>
+        </div>
+        
+        <div class="team-member">
+            <div class="avatar">
+                <img src="/api/placeholder/120/120" alt="Alex Rodriguez">
+            </div>
+            <div class="name">Alex Rodriguez</div>
+            <div class="role">UX Designer</div>
+        </div>
+        
+        <div class="team-member">
+            <div class="avatar">
+                <img src="/api/placeholder/120/120" alt="Emily Wallace">
+            </div>
+            <div class="name">Emily Wallace</div>
+            <div class="role">Backend Engineer</div>
+        </div>
+        
+        <div class="team-member">
+            <div class="avatar">
+                <img src="/api/placeholder/120/120" alt="David Kim">
+            </div>
+            <div class="name">David Kim</div>
+            <div class="role">Security Specialist</div>
+        </div>
+        
+        <div class="team-member">
+            <div class="avatar">
+                <img src="/api/placeholder/120/120" alt="Priya Patel">
+            </div>
+            <div class="name">Priya Patel</div>
+            <div class="role">QA Engineer</div>
+        </div>
+    </div>
+</body>
+</html>
